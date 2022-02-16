@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Portfolio front end</title>
+    <link rel= "stylesheet" href="style.css"/>
+</head>
+
+<body>
+    
+<nav>
+    <ul id="topMenu" >
+        <li ><a href="#particles-js" style="text-decoration: none;">.CODE[S]</a></li>
+        <li><a href="#sobre" style="text-decoration: none;" color="white">Sobre</a></li>
+        <li><a href="#projetos" style="text-decoration: none;" >Projetos</a></li>
+        <li><a href="#contato" style="text-decoration: none;"> Contato</a></li>
+    </ul>
+</nav>
+<div  class="centralize" >
+<div  class="section1" id="particles-js"> 
+        <h1><b>.CODE[S] </b> </h1>
+             <p><b>WEB DEVELOPER - FRONT END</b></p>       
+    </div>
+</div>
+
+<div id="sobre"   class="section3"  > 
+    <div> <img id="imagemdoperfil" src="imagens/perfil.png" ></div>
+    <div>        
+      <h2><b>Olá, meu nome é Samuel! </b> </h2>
+      <div><p1><b>Sou estudante de programação para web (front-end).</b></p1></div>   
+      <div><p1><b>gosto de café,tecnologia, futebol, e música.</b> </p1></div> 
+</div>
+    <h2>Skills:  </h2>     
+<div><p1>JavaScript</p1></div>
+<div  class="progress">
+    <div  class="progress-js"></div>
+</div>
+<div><p1>React.js</p1></div>
+<div class="progress">
+    <div class="progress-react"></div>
+</div>
+<div><p1>HTML</p1></div>
+<div class="progress">
+    <div class="progress-html"></div>
+</div>
+<div><p1>CSS </p1></div>
+<div class="progress">
+    <div class="progress-css"></div>
+</div>
+</div>
+
+<div id="projetos" class="centralize">
+
+    <div style="height: 50px;;"></div>
+    <div class="textprojeto">Ainda em construção... </div>
+    <div class="textprojeto">A página estará pronta em 01 de março</div>
+
+    <div class="countdown">
+        <div   class="box" >
+          <span data-time></span>
+          <div>dia(s)</div>
+        </div>
+        <div  class="box">
+          <span   data-time></span>
+          <div>hora(s)</div>
+        </div>
+        <div  class="box">
+          <span  data-time></span>
+          <div>min.</div>
+     </div>
+     <div  class="box" >
+          <span  data-time></span>
+          <div>seg.</div>
+        </div>
+    </div>
+</div>
+
+<div id="contato" class="centralize" >
+<div>    
+    <h6>ENTRE EM CONTATO</h6>
+<div>
+    <input type="text" id="nomeid" placeholder="Samuel" required="required" name="nome" />
+    <label for="nome">Nome</label>
+</div>  
+<div>
+    <input type="tel" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" />
+    <label for="fone">Fone</label>
+</div>
+<div>
+    <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+    <label for="email">Email</label>
+</div> 
+<div>
+    <textarea placeholder="Deixe seu recado que retornarei em breve"></textarea>
+</div>
+<div>
+    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+</div> 
+</div>
+<footer >
+    <div id="footer">
+    <h5 >@Criado por Samuel 2022,todos os direitos reservados</h5>
+        <a href="https://www.instagram.com/"><img id= "socialmedia" src="imagens/logoinsta.png" ></a>  
+        <a href="https://www.linkedin.com/in/samueloblivion73b48b45/"><img  id="socialmedia" src="imagens/linkedinlogoredondo.png"></a>
+        <a href="https://github.com/samTenorio"><img  id="socialmedia" src="imagens/logogithub.png"></a>
+        <img  id="socialmedia" src="imagens/logoemail.png">
+    </div>
+</footer>
+
+<script type="text/javascript" src="particles.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="contato.js"></script>
+<script type="module" src="script contador.js"></script>
+
+
+
+</body>
+</html>
